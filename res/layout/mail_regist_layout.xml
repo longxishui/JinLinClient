@@ -1,0 +1,150 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="wrap_content"
+        layout="@layout/topbar_layout" />
+
+    <LinearLayout
+        android:id="@+id/linear_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:paddingBottom="25dp" >
+
+        <TextView
+            android:id="@+id/txt_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/regist_mail_inputmail_title"
+            android:textColor="@color/regist_green"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/et_phonenum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/input_bg"
+            android:inputType="textEmailAddress"
+            android:maxLength="11"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/regist_sms_username_title"
+            android:textColor="@color/regist_green"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/et_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/input_bg"
+                android:maxLength="12"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:maxLines="2"
+                android:text="@string/regist_sms_hint_username"
+                android:textColor="@color/regist_hint"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/regist_sms_password_title"
+            android:textColor="@color/regist_green"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/et_passwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/input_bg"
+                android:inputType="textPassword"
+                android:maxLength="12"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:maxLines="2"
+                android:text="@string/regist_sms_hint_passwd"
+                android:textColor="@color/regist_hint"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/regist_sms_confirm"
+            android:textColor="@color/regist_green"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/et_passwdconfirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/input_bg"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_regist"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/btn_1_2x"
+        android:text="@string/regist_sms_regist_title"
+        android:textColor="@color/regist_white"
+        android:textSize="14sp" />
+
+</LinearLayout>

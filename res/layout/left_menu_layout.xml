@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mlist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent" >
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/relative_leftmenu_points"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/left_menu_selector" >
+
+            <ImageView
+                android:id="@+id/img_leftmenu_points"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/leftmenu_point_3x" />
+
+            <TextView
+                android:id="@+id/my_question_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img_leftmenu_points"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/main_points_title"
+                android:textColor="@color/regist_white"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            layout="@layout/line" >
+        </include>
+
+        <RelativeLayout
+            android:id="@+id/relative_leftmenu_news"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/left_menu_selector" >
+
+            <ImageView
+                android:id="@+id/img_leftmenu_news"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/leftmenu_news_3x" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img_leftmenu_news"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/main_news_title"
+                android:textColor="@color/regist_white"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <include
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            layout="@layout/line" >
+        </include>
+
+        <RelativeLayout
+            android:id="@+id/relative_leftmenu_forum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/left_menu_selector" >
+
+            <ImageView
+                android:id="@+id/img_leftmenu_forum"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/leftmenu_forum_3x" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img_leftmenu_forum"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/main_forum_title"
+                android:textColor="@color/regist_white"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <include
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            layout="@layout/line" >
+        </include>
+
+        <RelativeLayout
+            android:id="@+id/relative_leftmenu_commnication"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/left_menu_selector" >
+
+            <ImageView
+                android:id="@+id/img_leftmenu_commnication"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/leftmenu_traffic_3x" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img_leftmenu_commnication"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/main_communication_select_title"
+                android:textColor="@color/regist_white"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <include
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            layout="@layout/line" >
+        </include>
+
+        <RelativeLayout
+            android:id="@+id/relative_leftmenu_lives"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/left_menu_selector" >
+
+            <ImageView
+                android:id="@+id/img_leftmenu_lives"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/leftmenu_life_3x" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img_leftmenu_lives"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/main_lives_select_title"
+                android:textColor="@color/regist_white"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <include
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            layout="@layout/line" >
+        </include>
+
+        <RelativeLayout
+            android:id="@+id/relative_leftmenu_work"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/left_menu_selector" >
+
+            <ImageView
+                android:id="@+id/img_leftmenu_work"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/leftmenu_arrangement_3x" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img_leftmenu_work"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/main_work_select_title"
+                android:textColor="@color/regist_white"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <include
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            layout="@layout/line" >
+        </include>
+
+        <RelativeLayout
+            android:id="@+id/relative_leftmenu_setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/left_menu_selector" >
+
+            <ImageView
+                android:id="@+id/img_leftmenu_setting"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/leftmenu_setting_3x" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img_leftmenu_setting"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/leftmenu_setting_title"
+                android:textColor="@color/regist_white"
+                android:textSize="15sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>
