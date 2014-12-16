@@ -1,0 +1,123 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/regist_white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@drawable/topbar_bg_3x"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/img_topleft_btn"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="right"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/topbar_menu" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/img_head"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:scaleType="centerInside" />
+
+            <TextView
+                android:id="@+id/txt_nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="25dp"
+                android:layout_toRightOf="@id/img_head"
+                android:gravity="center"
+                android:text="yummy"
+                android:textColor="@color/black_font"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/txt_balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_nickname"
+                android:layout_toRightOf="@id/img_head"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="现有积分53点"
+                android:textColor="@color/black_font"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txt_points_infors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_balance"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/img_head"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="可抵扣约5.3元"
+                android:textColor="@color/black_font"
+                android:textSize="15sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:textColor="@color/white"
+                android:background="@drawable/btn_1"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="2"
+                android:id="@+id/btn_xzip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/points_xzip_btn_title" />
+            
+            <Button
+                android:textColor="@color/white"
+                android:background="@drawable/btn_1"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="2"
+                android:id="@+id/btn_mark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/points_mark_btn_title" />
+            
+        </LinearLayout>
+        
+        
+        <TextView android:id="@+id/txt_testhtml" android:textColor="@color/black_font" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="测试textview的方法"/>
+    </LinearLayout>
+
+</LinearLayout>

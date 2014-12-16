@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register_way_bg_2x" >
+
+    <RelativeLayout
+        android:id="@+id/relative_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/txt_tourist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:text="@string/regist_tourist_title"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/img_tourist"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_above="@id/txt_tourist"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ico_tourist_2x" />
+
+        <TextView
+            android:id="@+id/txt_other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/img_tourist"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:text="@string/regist_other_title"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/img_wechat"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_above="@id/txt_other"
+            android:layout_alignLeft="@id/txt_other"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/ico_wechat_2x" />
+
+        <ImageView
+            android:id="@+id/img_weibo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_above="@id/txt_other"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/img_wechat"
+            android:src="@drawable/ico_weibo_2x" />
+
+        <ImageView
+            android:id="@+id/img_qq"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_above="@id/txt_other"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/img_weibo"
+            android:src="@drawable/ico_qq_2x" />
+
+        <TextView
+            android:id="@+id/txt_sms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/img_wechat"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="60dp"
+            android:text="@string/regist_sms_titile"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/txt_sms"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/txt_sms"
+            android:text="@string/regist_mail_title"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/img_sms"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_above="@id/txt_sms"
+            android:layout_alignLeft="@id/txt_sms"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ico_phone_2x" />
+
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="21dp"
+            android:id="@+id/txt_separator"
+            android:layout_width="0.5dp"
+            android:layout_height="50dp"
+            android:layout_above="@id/txt_sms"
+            android:layout_toRightOf="@id/img_sms"
+            android:background="@android:color/white" />
+
+        <ImageView
+            android:layout_toRightOf="@id/txt_separator"
+            android:layout_above="@id/txt_sms"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/img_mail"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ico_email_2x" />
+    </RelativeLayout>
+
+</LinearLayout>
