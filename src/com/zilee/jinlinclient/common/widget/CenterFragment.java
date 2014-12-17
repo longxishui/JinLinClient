@@ -3,7 +3,7 @@
  *
  * Copyright (c) 2014 Aspire. All Rights Reserved
  */
-package com.zilee.jinlinclient.ui.fragment;
+package com.zilee.jinlinclient.common.widget;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -16,7 +16,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.zilee.jinlinclient.R;
-import com.zilee.jinlinclient.utils.ImageUtil;
+import com.zilee.jinlinclient.common.utils.ImageUtil;
 
 /**
  * The class <code>LeftFragment</code>

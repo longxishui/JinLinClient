@@ -1,4 +1,4 @@
-package com.zilee.jinlinclient.ui;
+package com.zilee.jinlinclient.common.ui;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
@@ -7,9 +7,9 @@ import android.view.Menu;
 import android.widget.ImageView;
 
 import com.zilee.jinlinclient.R;
-import com.zilee.jinlinclient.ui.fragment.CenterFragment;
-import com.zilee.jinlinclient.ui.fragment.LeftFragment;
-import com.zilee.jinlinclient.weiget.SlidingMenu;
+import com.zilee.jinlinclient.common.widget.CenterFragment;
+import com.zilee.jinlinclient.common.widget.LeftFragment;
+import com.zilee.jinlinclient.common.widget.SlidingMenu;
 
 public class MainActivity extends FragmentActivity {
     

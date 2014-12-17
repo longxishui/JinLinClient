@@ -3,7 +3,7 @@
  *
  * Copyright (c) 2014 Aspire. All Rights Reserved
  */
-package com.zilee.jinlinclient.utils;
+package com.zilee.jinlinclient.common.utils;
 
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.Config;

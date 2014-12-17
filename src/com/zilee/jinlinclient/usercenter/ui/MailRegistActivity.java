@@ -3,7 +3,7 @@
  *
  * Copyright (c) 2014 Aspire. All Rights Reserved
  */
-package com.zilee.jinlinclient.ui;
+package com.zilee.jinlinclient.usercenter.ui;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -14,6 +14,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.zilee.jinlinclient.R;
+import com.zilee.jinlinclient.common.ui.MainActivity;
 
 /**
  * The class <code>MailRegistActivity</code>

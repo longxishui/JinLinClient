@@ -3,7 +3,7 @@
  *
  * Copyright (c) 2014 Aspire. All Rights Reserved
  */
-package com.zilee.jinlinclient.ui.fragment;
+package com.zilee.jinlinclient.common.widget;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
