@@ -41,7 +41,7 @@
         <include
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            layout="@layout/line" >
+            layout="@layout/common_line" >
         </include>
 
         <RelativeLayout
@@ -74,7 +74,7 @@
         <include
             android:layout_width="fill_parent"
             android:layout_height="2px"
-            layout="@layout/line" >
+            layout="@layout/common_line" >
         </include>
 
         <RelativeLayout
@@ -107,7 +107,7 @@
         <include
             android:layout_width="fill_parent"
             android:layout_height="2px"
-            layout="@layout/line" >
+            layout="@layout/common_line" >
         </include>
 
         <RelativeLayout
@@ -140,7 +140,7 @@
         <include
             android:layout_width="fill_parent"
             android:layout_height="2px"
-            layout="@layout/line" >
+            layout="@layout/common_line" >
         </include>
 
         <RelativeLayout
@@ -173,7 +173,7 @@
         <include
             android:layout_width="fill_parent"
             android:layout_height="2px"
-            layout="@layout/line" >
+            layout="@layout/common_line" >
         </include>
 
         <RelativeLayout
@@ -206,7 +206,7 @@
         <include
             android:layout_width="fill_parent"
             android:layout_height="2px"
-            layout="@layout/line" >
+            layout="@layout/common_line" >
         </include>
 
         <RelativeLayout
