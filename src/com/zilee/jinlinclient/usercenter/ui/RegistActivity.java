@@ -32,7 +32,7 @@ public class RegistActivity extends Activity implements OnClickListener{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.regist_layout);
+        setContentView(R.layout.usercenter_regist_layout);
         initialViews();
     }
     

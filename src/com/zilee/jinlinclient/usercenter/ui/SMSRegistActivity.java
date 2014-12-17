@@ -39,7 +39,7 @@ public class SMSRegistActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.sms_regist_layout);
+        setContentView(R.layout.usercenter_sms_regist_layout);
         initialViews();
     }
     

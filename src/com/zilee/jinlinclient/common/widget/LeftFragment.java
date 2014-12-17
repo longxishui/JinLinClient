@@ -37,7 +37,7 @@ public class LeftFragment extends Fragment implements OnClickListener {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         debug("[onCreateView] started!");
-        View view = inflater.inflate(R.layout.left_menu_layout, null);
+        View view = inflater.inflate(R.layout.common_main_left_menu_layout, null);
 
         initialViews(view);
 

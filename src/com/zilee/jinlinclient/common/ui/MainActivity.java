@@ -23,7 +23,7 @@ public class MainActivity extends FragmentActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main_layout);
+        setContentView(R.layout.common_main_layout);
         initialViews();
     }
     
@@ -34,7 +34,7 @@ public class MainActivity extends FragmentActivity {
         
         mSlidingMenu = (SlidingMenu) findViewById(R.id.slidingMenu);
         mSlidingMenu.setLeftView(getLayoutInflater().inflate(
-                R.layout.left_frame, null));
+                R.layout.common_main_left_fragment, null));
         mSlidingMenu.setCenterView(getLayoutInflater().inflate(
                 R.layout.center_frame, null));
         

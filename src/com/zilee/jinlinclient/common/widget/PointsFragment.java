@@ -36,7 +36,7 @@ public class PointsFragment extends Fragment{
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         Log.d("[debug]", "[PointsFragment][onCreate] started !");
-        View view = inflater.inflate(R.layout.points_content, null);
+        View view = inflater.inflate(R.layout.integralsys_content, null);
        
         initialView(view);
         

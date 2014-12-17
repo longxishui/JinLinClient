@@ -28,7 +28,7 @@ public class MailRegistActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.mail_regist_layout);
+        setContentView(R.layout.usercenter_mail_regist_layout);
         initialViews();
     }
     

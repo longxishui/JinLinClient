@@ -29,7 +29,7 @@ public class CenterFragment extends Fragment {
             Bundle savedInstanceState) {
         Log.d("[debug]", "[CenterFragment][onCreateView] started !");
         
-        View view = inflater.inflate(R.layout.frame_content, null);
+        View view = inflater.inflate(R.layout.common_main_fragment_content, null);
         
         ImageView mImgHead = (ImageView) view.findViewById(R.id.img_head);
         //处理头像圆角化

@@ -12,7 +12,7 @@ import android.content.res.Configuration;
 /**
  * The class <code>Application</code>
  *
- * @author Administrator
+ * @author duyz
  * @version 1.0
  */
 public class JinLinApplication extends Application {
